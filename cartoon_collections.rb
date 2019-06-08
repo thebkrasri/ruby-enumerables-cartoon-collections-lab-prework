@@ -18,7 +18,7 @@ end
 
 def find_the_cheese(arr)# code an argument here
   # the array below is here to help
-  cheese = nil
+  #cheese = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   cheese = arr.find {|s| cheese_types.include?(s)}
